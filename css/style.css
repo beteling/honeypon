@@ -1,0 +1,297 @@
+# Empty CSS file for your own CSS
+
+
+
+
+.pageNavPosition{
+					display: inline-block;
+					padding: 0;
+					margin: 0;
+					}
+
+.pg-normal {
+
+                color: black;
+                font-weight: normal;
+                text-decoration: none;
+                cursor: pointer;
+				transition: background-color .3s;
+				padding: 6px 12px;
+				text-decoration: none;
+				border: 1px solid #ddd;
+
+            }
+.pg-selected {
+                color: white;
+                font-weight: bold;
+                text-decoration: underline;
+                cursor: pointer;
+				background-color: #195F82;
+				padding: 6px 12px;
+				text-decoration: none;
+            }
+
+.pg-normal:hover:not(.active) {background-color: #ddd;}
+
+.pageNavPositionclient{
+					display: inline-block;
+					padding: 0;
+					margin: 0;
+					}
+
+.pgc-normalclient {
+
+                color: black;
+                font-weight: normal;
+                text-decoration: none;
+                cursor: pointer;
+								transition: background-color .3s;
+								padding: 6px 12px;
+								text-decoration: none;
+								border: 1px solid #ddd;
+
+            }
+.pgc-selectedclient {
+                color: white;
+                font-weight: bold;
+                text-decoration: underline;
+                cursor: pointer;
+								background-color: #195F82;
+								padding: 6px 12px;
+								text-decoration: none;
+            }
+
+.pgc-normalclient:hover:not(.active) {background-color: #ddd;}
+
+.pageNavPositionolt{
+					display: inline-block;
+					padding: 0;
+					margin: 0;
+					}
+
+.pgo-normalolt {
+
+                color: black;
+                font-weight: normal;
+                text-decoration: none;
+                cursor: pointer;
+								transition: background-color .3s;
+								padding: 6px 12px;
+								text-decoration: none;
+								border: 1px solid #ddd;
+
+            }
+.pgo-selectedolt {
+                color: white;
+                font-weight: bold;
+                text-decoration: underline;
+                cursor: pointer;
+								background-color: #195F82;
+								padding: 6px 12px;
+								text-decoration: none;
+            }
+
+.pgo-normalolt:hover:not(.active) {background-color: #ddd;}
+
+
+.testbox {
+  margin: 20px auto;
+  width: 280px;
+  height: 265px;
+  -webkit-border-radius: 8px/7px;
+  -moz-border-radius: 8px/7px;
+  border-radius: 0;
+  background-color: #ebebeb ;
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  border: solid 1px #cbc9c9;
+}
+
+.testbox2 {
+  margin: 20px auto;
+  width: 1000px;
+  height: 400px;
+  -webkit-border-radius: 8px/7px;
+  -moz-border-radius: 8px/7px;
+  border-radius: 4px/3px;
+  background-color: #ebebeb;
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  border: solid 1px #cbc9c9;
+}
+
+.testboxolt {
+  margin: 20px auto;
+  width: 1000px;
+  height: 200px;
+  -webkit-border-radius: 8px/7px;
+  -moz-border-radius: 8px/7px;
+  border-radius: 4px/3px;
+  background-color: #ebebeb;
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  border: solid 1px #cbc9c9;
+}
+
+#oltedit {
+background-color:transparent;
+color:#337ab7;
+
+border:0px;
+}
+
+#oltbaja {
+background-color:transparent;
+color:#c9302c;
+
+border:0px;
+}
+
+#oltcacti {
+background-color:transparent;
+color:#449d44;
+
+border:0px;
+}
+
+#oltedit:hover {
+background-color:#337ab7;
+color:white;
+
+
+}
+
+#oltbaja:hover {
+background-color:#c9302c;
+color:white;
+}
+
+#oltcacti:hover {
+background-color:#449d44;
+color:white;
+}
+
+
+.altamain-btn {
+    background: #eee;
+    box-shadow: 0 0 0 4px #f8f8f8 inset, 0 0 0 1px #ccc;
+    color: #444;
+    display: inline-block;
+    height: 140px;
+    margin: 10px;
+    padding-top: 25px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    position: relative;
+    margin-left: 130px;
+}
+
+
+
+.alta-btn {
+    background: #eee;
+    box-shadow: 0 0 0 4px #f8f8f8 inset, 0 0 0 1px #ccc;
+    color: #444;
+    display: inline-block;
+    height: 45px;
+    margin: 10px;
+    padding-top: 9px;
+    text-align: center;
+    text-decoration: none;
+    width: 50px;
+    position: relative;
+}
+
+
+.fa-4x {
+    font-size: 4em;}
+
+fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove;
+    background-color: #EBEBEB;
+	width: 400px;
+	border-radius:7px;
+}
+
+#legendtarea {
+    display: block;
+    -webkit-padding-start: 2px;
+    -webkit-padding-end: 2px;
+    border-width: initial;
+    border-style: double;
+    border-color: initial;
+    border-image: initial;
+    background-color: #195F82;
+    color: #f3f5f7;
+    font-size: 18px;
+    padding:5px;
+    border-radius:7px;
+}
+
+#form-group-accion{
+	margin-left: 30px;
+	margin-bottom: 15px;
+}
+
+#form-group-fecha{
+	margin-left: 30px;
+	margin-bottom: 15px;
+}
+
+#form-group-addprogram{
+	margin-left: 30px;
+	margin-bottom: 15px;
+}
+
+#actualizarcliente {
+    width:100%;
+}
+
+#wifipersistente {
+    margin-left: 70px;
+    width:35%;
+}
+
+#legendtareawifi {
+     display: block;
+    -webkit-padding-start: 2px;
+    -webkit-padding-end: 2px;
+    border-width: initial;
+    border-style: double;
+    border-color: initial;
+    border-image: initial;
+    background-color: #dc8e13;
+    color: #f3f5f7;
+    font-size: 14px;
+    padding:5px;
+    border-radius:7px;
+}
+
+
+.tableontlist{
+	text-align:center;
+}
+
+
+.nav-tabs.nav-justified>li>a {
+    border-radius: 0px 0 0 !important;
+		margin-right: 0px !important;
+}
+
+
+.nav>li>a {
+    position: relative !important;
+    display: block !important;
+    padding: 7px 15px !important;
+}
